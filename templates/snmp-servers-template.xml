@@ -18,14 +18,14 @@
 
         <snmp-server xmlns="urn:ios">
   <community>
-    <name>{/community-string}</name>
+    <name>{/dummy}</name>
     <RO/>
   </community>
 </snmp-server>
 
 <snmp-server xmlns="http://cisco.com/ned/asa">
   <community>
-    <secret>{/community-string}</secret>
+    <secret>{/dummy}</secret>
   </community>
   <enable-conf>
     <enable>true</enable>
@@ -35,7 +35,7 @@
 
 <snmp-server xmlns="http://tail-f.com/ned/cisco-ios-xr">
   <community>
-    <name>{/community-string}</name>
+    <name>{/dummy}</name>
     <RW/>
   </community>
 </snmp-server>
